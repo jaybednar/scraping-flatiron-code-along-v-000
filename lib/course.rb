@@ -8,11 +8,11 @@ class Course
  end
 
  def all
-   self.all
+   @@all
  end
 
  def self.reset_all
-   self.all.clear
+   @@all.clear
  end
 
 end
